@@ -1,4 +1,4 @@
-require_relative('../URLify')
+require_relative('../Q1_03_URLify')
 
 describe '' do
 	let(:string){"Jason Loves TDD"}

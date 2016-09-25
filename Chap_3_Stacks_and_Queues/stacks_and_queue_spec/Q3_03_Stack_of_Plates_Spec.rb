@@ -1,4 +1,4 @@
-require_relative('../Stack_of_Plates')
+require_relative('../Q3_03_Stack_of_Plates')
 
 describe 'it can handle mix sizes' do
 	let(:plates) {('a'..'z')}

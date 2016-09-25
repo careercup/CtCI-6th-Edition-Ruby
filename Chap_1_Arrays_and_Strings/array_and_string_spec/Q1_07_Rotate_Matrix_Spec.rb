@@ -1,4 +1,4 @@
-require_relative('../Rotate_Matrix')
+require_relative('../Q1_07_Rotate_Matrix')
 
 describe 'turn an array 90 degrees to the right' do
 	let(:portrait){[["a", "b", "c"],

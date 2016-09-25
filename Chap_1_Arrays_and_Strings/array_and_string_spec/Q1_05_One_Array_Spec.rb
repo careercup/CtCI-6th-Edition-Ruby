@@ -1,4 +1,4 @@
-require_relative('../One_Array')
+require_relative('../Q1_05_One_Array')
 
 describe 'Checks if two words are one edit away' do
 	let(:pale) {'pale'}

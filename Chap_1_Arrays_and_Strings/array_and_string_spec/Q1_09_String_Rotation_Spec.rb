@@ -1,4 +1,4 @@
-require_relative('../String_Rotation')
+require_relative('../Q1_09_String_Rotation')
 
 describe 'checks 2 strings if they are rotations of each other' do
 	let(:waterbottle){'waterbottle'}

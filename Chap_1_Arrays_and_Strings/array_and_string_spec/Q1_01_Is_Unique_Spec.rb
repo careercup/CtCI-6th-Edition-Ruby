@@ -1,4 +1,4 @@
-require_relative('../Is_Unique')
+require_relative('../Q1_01_Is_Unique')
 
 describe 'detects if characters are unique in a word' do
 	let(:word1) {"jason"}
