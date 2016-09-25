@@ -1,4 +1,4 @@
-require_relative('../Q1_02_Check_Permutation')
+require_relative('../Q1_02_Solution2_Check_Permutation')
 
 describe 'check if two words are permutations of each other' do
 	let(:lemon) {'lemon'}

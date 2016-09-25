@@ -1,4 +1,4 @@
-require_relative('../three_in_one')
+require_relative('../Q3_01_Three_In_One')
 
 describe 'it can handle mix inputs and size' do
 	let(:mix_array) {['jason',2,nil,nil,nil,nil,88,7,'pizza','hello',7.98,nil]}

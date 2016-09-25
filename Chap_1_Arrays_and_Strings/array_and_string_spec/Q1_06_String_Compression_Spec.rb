@@ -1,4 +1,4 @@
-require_relative('../String_Compression')
+require_relative('../Q1_06_String_Compression')
 
 describe 'string compression' do
 	let(:aabcccccaaa){'aabcccccaaa'}

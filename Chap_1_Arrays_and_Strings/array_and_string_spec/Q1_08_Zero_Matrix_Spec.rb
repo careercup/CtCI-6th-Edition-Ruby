@@ -1,4 +1,4 @@
-require_relative('../Zero_Matrix')
+require_relative('../Q1_08_Zero_Matrix')
 
 describe 'it will zero out rows and col' do
 	let(:matrix){[[1, 0, 3], [4, 5, 6], [7, 8, 9]]}
