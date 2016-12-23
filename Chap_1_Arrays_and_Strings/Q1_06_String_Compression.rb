@@ -1,27 +1,14 @@
 def string_compression(string)
-	container = [
-		[]
-	]
-	word = string.split('')
-
-	word.each do |letter|
-		if container[-1] == []
-			container[-1] << letter
-		elsif container[-1][0] == letter
-			container[-1] << letter
+	compressed_string = ''
+	current = nil
+	count = 1
+	string.split('').each_with_index do |char, index|
+		if char == string[index + 1]
+			count += 1
 		else
-			container << Array.new
-			container[-1] << letter
+			compressed_string << "#{char}#{count}"
+			count = 1
 		end
 	end
-	compressed = ""
-	container.length.times do |count|
-		compressed = compressed + container[count][0]+container[count].length.to_s
-	end
-
-	if string.length <=  compressed.length
-		string
-	else
-		compressed
-	end
+	string.length <= compressed_string.length ? string : compressed_string
 end
