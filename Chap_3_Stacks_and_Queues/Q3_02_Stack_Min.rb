@@ -1,20 +1,14 @@
 def higest_num_stack(stack)
-	return stack[0] if stack.length == 1
-	temp_queue = []
-	smallest = stack.min
+  return stack[0] if stack.length == 1
+  temp_queue = []
+  smallest = stack.min
 
+  temp_queue << stack.pop until stack.empty?
 
-	until stack.length == 0
-		temp_queue << stack.pop
-	end
+  temp_queue.push(temp_queue.shift) until smallest == temp_queue.last
 
-	until smallest == temp_queue.last
-		temp_queue.push(temp_queue.shift)
-	end
+  stack = temp_queue
+  stack.pop
 
-
-	stack = temp_queue
-	stack.pop
-
-	higest_num_stack(stack)
+  higest_num_stack(stack)
 end
