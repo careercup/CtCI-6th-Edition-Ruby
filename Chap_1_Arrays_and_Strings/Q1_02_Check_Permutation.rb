@@ -31,7 +31,7 @@ module CheckPermutation
     if s1 == s2
       true
     else
-      (s1.chars.sort == s2.chars.sort) ? true : false
+      s1.chars.sort == s2.chars.sort
     end
   end
 end
