@@ -1,10 +1,10 @@
 def zero_matrix(matrix)
-	zero = nil
+	zero = []
 	matrix.length.times do |row|
 		if matrix[row].include?(0)
 			matrix[row].each_with_index do |zeros, idx|
 				if zeros == 0
-					zero = idx
+					zero << idx
 				else
 					matrix[row][idx] = 0
 				end
@@ -13,7 +13,7 @@ def zero_matrix(matrix)
 	end
 	matrix = matrix.transpose
 	matrix.length.times do |row|
-		if zero == row
+		if zero.include?[row]
 			matrix[row].each_with_index do |zeros, idx|
 				matrix[row][idx] = 0
 			end
