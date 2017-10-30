@@ -18,6 +18,10 @@ describe 'Checks if two words are one edit away' do
 		expect(one_away(cake, bake)).to eq(true)
 	end
 
+	it 'it will return true if 0 edits away' do
+		expect(one_away(pale, pale)).to eq(true)
+	end
+
 	it 'it will return false due to over 1 edit away' do
 		expect(one_away(cat, dog)).to eq(false)
 	end
