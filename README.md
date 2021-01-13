@@ -17,3 +17,10 @@
 - [Three in One](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/Q3_01_Three_In_One.rb), [RSpec tests](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/stacks_and_queue_spec/Q3_01_Three_In_One_Spec.rb)
 - [Stack Min](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/Q3_02_Stack_Min.rb), [RSpec tests](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/stacks_and_queue_spec/Q3_02_Stack_Min_Spec.rb)
 - [Stack of Plates](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/Q3_03_Stack_of_Plates.rb), [RSpec tests](https://github.com/jasonsutter87/CtCI-6th-Edition-Ruby/blob/master/Chap_3_Stacks_and_Queues/stacks_and_queue_spec/Q3_03_Stack_of_Plates_Spec.rb)
+
+## Trees and Graphs
+
+- [Route Between Nodes](https://github.com/nathanworden/CtCI-6th-Edition-Ruby/blob/master/Chap_4_Trees_and_Graphs/4.1_Route_Between_Nodes.rb)
+
+  
+
